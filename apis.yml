@@ -1,8 +1,17 @@
 aid: eat-just
 name: Eat Just
-description: 'Eat Just is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Eat Just, Inc. is a food technology company founded in 2011 by Josh Tetrick
+  and Josh Balk, headquartered in Alameda, California, that makes plant-based alternatives
+  to animal products. Its flagship product is JUST Egg, a liquid and folded plant-based
+  egg made from mung bean protein, alongside JUST Meat, JUST Protein and JUST condiments.
+  Its GOOD Meat subsidiary produces cultivated chicken and in December 2020 became the
+  first company in the world to receive regulatory approval to sell cultivated meat,
+  in Singapore, followed by US FDA and USDA approval in June 2023. The company sells
+  through retail, foodservice, restaurant and industrial channels in North America and
+  Europe. Eat Just publishes no public developer portal, API documentation or machine-readable
+  API contract; this profile records its public web and corporate surface only.'
 url: https://raw.githubusercontent.com/api-evangelist/eat-just/refs/heads/main/apis.yml
+image: https://ricjgeipfnnvkohg.public.blob.vercel-storage.com/images/storyblok/466c6233d7-eat-just_meta.jpg
 x-type: company
 x-source: harvest:secondary-market
 x-tier: stub
@@ -12,6 +21,15 @@ created: '2026-08-04'
 modified: '2026-08-04'
 tags:
 - Company
+- Food
+- Food and Beverage
+- Consumer Packaged Goods
+- Plant-Based
+- Alternative Protein
+- Cultivated Meat
+- Food Technology
+- Agriculture
+- Manufacturing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +37,32 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/eat-just-domain-security.yml
 - type: Website
+  url: https://www.ju.st/
+- type: About
+  url: https://www.ju.st/about
+- type: Contact
+  url: https://www.ju.st/contact-us
+- type: Support
+  url: https://www.ju.st/faq
+- type: Blog
+  url: https://www.ju.st/stories
+- type: PrivacyPolicy
+  url: https://www.ju.st/privacy
+- type: TermsOfService
+  url: https://www.ju.st/terms
+- type: Careers
+  url: https://www.ju.st/careers
+- type: GitHubOrganization
+  url: https://github.com/EatJust
+- type: Investment
   url: https://www.hiive.com/securities/eat-just-stock
+- type: LLMsTxt
+  url: llms/eat-just-llms.txt
+x-enrichment:
+  date: '2026-08-04'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
