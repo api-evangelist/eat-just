@@ -11,6 +11,17 @@ description: 'Eat Just, Inc. is a food technology company founded in 2011 by Jos
   Europe. Eat Just publishes no public developer portal, API documentation or machine-readable
   API contract; this profile records its public web and corporate surface only.'
 url: https://raw.githubusercontent.com/api-evangelist/eat-just/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://ricjgeipfnnvkohg.public.blob.vercel-storage.com/images/storyblok/466c6233d7-eat-just_meta.jpg
 x-type: company
 x-source: harvest:secondary-market
