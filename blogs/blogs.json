@@ -2,6 +2,13 @@
   "repo": "eat-just",
   "feeds": [
     {
+      "source": "https://www.ju.st/stories",
+      "feed_url": "https://www.ju.st/stories",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
       "source": "https://www.ju.st/faq",
       "feed_url": "https://www.ju.st/faq",
       "title": "",
@@ -10,5 +17,5 @@
     }
   ],
   "post_count": 0,
-  "fetched": "2026-10-03T12:30:02Z"
+  "fetched": "2026-10-10T13:15:00Z"
 }
